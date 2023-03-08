@@ -2,7 +2,7 @@ import random
 
 def generator(len):
     password = ""
-    for i in range(0,len+1):
+    for i in range(0,len):
         selector = random.randint(0,3)
         if selector == 0:
             password += chr(random.randint(65,90))
